@@ -27,4 +27,5 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'Tugas15'
-          package: .
+          package: ./Tugas15Awan
+
