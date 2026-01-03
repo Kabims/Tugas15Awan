@@ -26,4 +26,4 @@ class Database() :
             return f"Berhasil Connect ke Database Versi Database: {row[0]}"
         
         except Exception as error:
-            return f"Gagal Connect ke Database </h1> </h2> Pesan Error : {str(error)}"
+            return f"Gagal Connect ke Database Pesan Error : {str(error)}"
